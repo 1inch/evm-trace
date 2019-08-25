@@ -1,0 +1,38 @@
+{
+  "name": "evm-traces",
+  "version": "1.0.0",
+  "description": "EvmTraces",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "browserify": "^16.2.3",
+    "ethereumjs-abi": "^0.6.7",
+    "request": "^2.88.0",
+    "throttled-request": "^0.1.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dist": "browserify decoder.js > web-decoder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryptoManiacsZone/EvmTrace.git"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "callstack",
+    "tree",
+    "traces"
+  ],
+  "author": "Anton Bukov <k06aaa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CryptoManiacsZone/EvmTrace/issues"
+  },
+  "homepage": "https://github.com/CryptoManiacsZone/EvmTrace#readme"
+}
